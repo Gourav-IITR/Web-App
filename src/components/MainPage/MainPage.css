@@ -1,0 +1,52 @@
+.mainpage-content{
+    height:auto;
+}
+
+.whyChoose{
+    text-align:center;
+    color: #008296;
+    color:#10495c;
+    font-weight:bold;
+    font-size: 3.2vw;
+
+}
+
+.features{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    place-items: center;
+}
+
+.photoLanding{
+    width: 100%;
+    height: auto;
+}
+
+.aboutUs{
+    text-align:center;
+    color: #008296;
+    color:#10495c;
+    font-weight:bold;
+    font-size: 3.2vw;
+}
+
+.aboutUs_content{
+    font-size: 20px;
+    text-align: center;
+    color:#1f1f24;
+    padding:0 2vw 0 2vw;
+    margin: 10px 0 50px 0;
+}
+
+@media only screen and (max-width: 700px) {
+    .mainpage-content{
+        margin-top:30px;
+        height:70vh;
+    }
+
+    .aboutUs_content{
+        font-size:2vw;
+    }
+}
+
+ 
